@@ -223,6 +223,9 @@ public class biblioteca extends javax.swing.JFrame {
                       if (status == JFileChooser.APPROVE_OPTION){
                          File selectedFile = fileChooser.getSelectedFile();
                          imagen = selectedFile.getAbsolutePath();
+                         System.out.println(imagen);
+                         cancion.subirImagen(a, imagen);
+                         
                         
                 }
                 
@@ -231,6 +234,7 @@ public class biblioteca extends javax.swing.JFrame {
                 System.out.println("CANCELAR");
             }
             cancion.subirImagen(a, imagen);
+            
                 
             }
             }
@@ -289,7 +293,7 @@ public class biblioteca extends javax.swing.JFrame {
              mostrarInformacion.jLabel5.setText(test[2]);
              mostrarInformacion.jLabel7.setText(test[3]);
              mostrarInformacion.jLabel9.setText(test[4]+"secs");
-            // mostrarInformacion.lblImg.setIcon(new ImageIcon(test[6]));
+             mostrarInformacion.lblImg.setIcon(new ImageIcon(test[6]));
              
              
             

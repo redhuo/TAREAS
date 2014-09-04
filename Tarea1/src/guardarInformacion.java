@@ -22,7 +22,7 @@ public class guardarInformacion {
         setAlbum(nAlbum);
         setTiempo(tiempo);
         setGenero(genero);
-        setCancion(nCancion);
+        setArt(arteAlbum);
         setCamino(dCamino);
     }
     // Guardan la informacion del nombre del artista 

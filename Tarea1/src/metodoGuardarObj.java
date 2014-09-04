@@ -49,7 +49,7 @@ public class metodoGuardarObj {
         String Cancion = id3v1Tag.getTitle()+"";
         String Genero = id3v1Tag.getGenreDescription()+"";
         long Duracion = mp3file.getLengthInSeconds();
-        String Arte = "";
+        String Arte = "C:\\Users\\Jimmy\\Desktop\\New folder (2)\\Tarea1\\images.jpg";
         String path = camino;
         
         cancion = new guardarInformacion( Autor , Album ,Cancion,Genero,Duracion+"",Arte,path+"");
